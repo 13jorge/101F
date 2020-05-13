@@ -1,9 +1,12 @@
 let stars = [];
+let cnv;
 
 let speed;
 
 function setup() {
-  createCanvas(600, 600);
+  cnv = createCanvas(windowWidth, windowHeight);
+  // connected to html
+  cnv.parent("#canvasDiv");
   for (let i = 0; i < 800; i++) {
     stars[i] = new Star();
   }
