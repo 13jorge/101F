@@ -105,8 +105,8 @@ function drawhood() {
   //draw hood
   fill('#D41B0B');
   beginShape();
-  vertex(width * .5, height * 1);
-  vertex(width * .4, height * .9);
+  vertex(200, 400);
+  vertex(160, 360);
   vertex(160, 320);
   vertex(120, 280);
   vertex(120, 240);
