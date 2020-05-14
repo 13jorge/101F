@@ -50,7 +50,7 @@ function draw() {
     // channel shift?
     let channelshift = int(random(width,height));
     // loop over chunks
-    for(let i=pixels.length/2; i<pixels.length-glitchlen; i=i+glitchlen){
+    for(let i=0; i<pixels.length-glitchlen; i=i+glitchlen){
       // set all pixels in chunk to color of the first pixel
       for(let p=channelshift; p<glitchlen; p+=4){
         pixels[i+p] = pixels[i];
