@@ -7,7 +7,7 @@ body{
   width: 80%;
   text-align: center;
   font-family: "courier", monospace;
-  background-color: black;
+  /* background-color: black; */
 }
 canvas {
   /* margin: auto;
